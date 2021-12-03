@@ -1,1 +1,13 @@
+{
+  "name": "mock",
+  "version": "0.1.0"
+  "scripts": {
+    "server": "json-server -w mocks/mock.json --routes mocks/routes.json -p 8000"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0",
+  },
+ 
+  }
+}
 
